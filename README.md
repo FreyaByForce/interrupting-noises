@@ -8,7 +8,7 @@ A windows command line application for creating silence occaisionally interrupte
 This will play **filename.wav** repeatedly between a random wait time between the default 1-10 minutes.
 
 `noises.exe [file1.wav] [file2.wav] ... --min-wait 10 --max-wait 30`
-This will randomly choose either of the files to play before waiting between 10 to 30 seconds.
+This will randomly choose any of the files to play before waiting between 10 to 30 seconds.
 
 ## Known Limitations
 
