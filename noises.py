@@ -7,7 +7,7 @@ import msvcrt
 from pathlib import Path
 import winsound
 
-parser = argparse.ArgumentParser(prog="Interrupting Noises", description="Creates silence occaisionally interrupted with arbitrary WAV files")
+parser = argparse.ArgumentParser(prog="noises.exe", description="Creates silence occaisionally interrupted with arbitrary WAV files")
 parser.add_argument('files', nargs='+', type=str, help="Files to play")
 parser.add_argument('-s', '--min-wait', type=int, default=60, help="Minimum possible wait time between plays")
 parser.add_argument('-l', '--max-wait', type=int, default=600, help="Maximum possible wait time between plays")
