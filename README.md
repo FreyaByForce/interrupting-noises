@@ -1,6 +1,6 @@
 # Interrupting Noises
 
-A windows application for creating silence occaisionally interrupted by arbitrary WAV files.
+A windows command line application for creating silence occaisionally interrupted by arbitrary WAV files.
 
 ## Usage
 
